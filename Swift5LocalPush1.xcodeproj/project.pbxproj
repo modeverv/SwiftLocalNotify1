@@ -12,6 +12,9 @@
 		1786058F2249085700D23EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1786058D2249085700D23EAF /* Main.storyboard */; };
 		178605912249085A00D23EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178605902249085A00D23EAF /* Assets.xcassets */; };
 		178605942249085A00D23EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178605922249085A00D23EAF /* LaunchScreen.storyboard */; };
+		1786059D224908C900D23EAF /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1786059B224908C800D23EAF /* bird.jpg */; };
+		1786059E224908C900D23EAF /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1786059C224908C800D23EAF /* sound.wav */; };
+		178605A022490C3300D23EAF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1786059F22490C3300D23EAF /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		178605902249085A00D23EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178605932249085A00D23EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		178605952249085A00D23EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1786059B224908C800D23EAF /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
+		1786059C224908C800D23EAF /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+		1786059F22490C3300D23EAF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				1786058D2249085700D23EAF /* Main.storyboard */,
 				178605902249085A00D23EAF /* Assets.xcassets */,
 				178605922249085A00D23EAF /* LaunchScreen.storyboard */,
+				1786059B224908C800D23EAF /* bird.jpg */,
+				1786059C224908C800D23EAF /* sound.wav */,
 				178605952249085A00D23EAF /* Info.plist */,
+				1786059F22490C3300D23EAF /* ViewController2.swift */,
 			);
 			path = Swift5LocalPush1;
 			sourceTree = "<group>";
@@ -122,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1786059E224908C900D23EAF /* sound.wav in Resources */,
+				1786059D224908C900D23EAF /* bird.jpg in Resources */,
 				178605942249085A00D23EAF /* LaunchScreen.storyboard in Resources */,
 				178605912249085A00D23EAF /* Assets.xcassets in Resources */,
 				1786058F2249085700D23EAF /* Main.storyboard in Resources */,
@@ -137,6 +148,7 @@
 			files = (
 				1786058C2249085700D23EAF /* ViewController.swift in Sources */,
 				1786058A2249085700D23EAF /* AppDelegate.swift in Sources */,
+				178605A022490C3300D23EAF /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
